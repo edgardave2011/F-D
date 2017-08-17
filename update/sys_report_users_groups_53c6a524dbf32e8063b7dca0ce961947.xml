@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="INSERT_OR_UPDATE">
+        <group_id/>
+        <report_id display_value="Duncan Smith">1386a9a0dbf32e8063b7dca0ce9619b9</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>david.edgar</sys_created_by>
+        <sys_created_on>2016-12-16 16:33:06</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>53c6a524dbf32e8063b7dca0ce961947</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1386a9a0dbf32e8063b7dca0ce9619b9</sys_name>
+        <sys_package display_value="F and D" source="x_spog_f_and_d">45c86b523751d2004ed29c9953990e0b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="F and D">45c86b523751d2004ed29c9953990e0b</sys_scope>
+        <sys_update_name>sys_report_users_groups_53c6a524dbf32e8063b7dca0ce961947</sys_update_name>
+        <sys_updated_by>david.edgar</sys_updated_by>
+        <sys_updated_on>2016-12-16 16:33:06</sys_updated_on>
+        <user_id display_value="Rachel Cubbon-Allison">80934a9637b8820050579c9953990e52</user_id>
+    </sys_report_users_groups>
+</record_update>

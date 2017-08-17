@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_filter">
+    <sys_filter action="INSERT_OR_UPDATE">
+        <filter table="sys_user_has_role">role=6ba923163751d2004ed29c9953990e2c^ORrole=79fb8036db8622402ab570d9bf9619cf^ORrole=d02a6fd23751d2004ed29c9953990e73^EQ^GROUPBYrole<item display_table="sys_user_role" display_value="x_spog_f_and_d.agent" endquery="false" field="role" goto="false" newquery="false" operator="=" or="false" value="6ba923163751d2004ed29c9953990e2c"/>
+            <item display_table="sys_user_role" display_value="x_spog_f_and_d.F&amp;D read only" endquery="false" field="role" goto="false" newquery="false" operator="=" or="true" value="79fb8036db8622402ab570d9bf9619cf"/>
+            <item display_table="sys_user_role" display_value="x_spog_f_and_d.non_agent" endquery="false" field="role" goto="false" newquery="false" operator="=" or="true" value="d02a6fd23751d2004ed29c9953990e73"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+            <item endquery="false" field="" goto="false" newquery="false" operator="GROUPBY" or="false" value="role"/>
+        </filter>
+        <group/>
+        <last_used/>
+        <mobile>false</mobile>
+        <roles/>
+        <sys_class_name>sys_filter</sys_class_name>
+        <sys_created_by>david.edgar</sys_created_by>
+        <sys_created_on>2016-12-19 11:17:34</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5a5b77514f7f268019baf9b7c210c7fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>F&amp;D Roles</sys_name>
+        <sys_package display_value="F and D" source="x_spog_f_and_d">45c86b523751d2004ed29c9953990e0b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="F and D">45c86b523751d2004ed29c9953990e0b</sys_scope>
+        <sys_update_name>sys_filter_5a5b77514f7f268019baf9b7c210c7fc</sys_update_name>
+        <sys_updated_by>david.edgar</sys_updated_by>
+        <sys_updated_on>2016-12-19 11:17:34</sys_updated_on>
+        <table>sys_user_has_role</table>
+        <title>F&amp;D Roles</title>
+        <user display_value="Dave Edgar">b773c69637b8820050579c9953990eae</user>
+    </sys_filter>
+</record_update>

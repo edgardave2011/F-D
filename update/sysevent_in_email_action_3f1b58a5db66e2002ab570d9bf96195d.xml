@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sysevent_in_email_action">
+    <sysevent_in_email_action action="INSERT_OR_UPDATE">
+        <action>record_action</action>
+        <active>true</active>
+        <assignment_operator/>
+        <condition_script/>
+        <description>Reply emails inbound action</description>
+        <event_name>email.read</event_name>
+        <filter_condition/>
+        <from/>
+        <name>F&amp;D  Inbound</name>
+        <order>100</order>
+        <reply_email/>
+        <required_roles/>
+        <script><![CDATA[gs.include("global.validators");
+
+if (current.getTableName() == "x_spog_f_and_d_f_and_d") {
+	current.comments = "reply from: " + email.origemail + "\n\n" + email.body_text;
+	current.update();
+}]]></script>
+        <stop_processing>false</stop_processing>
+        <sys_class_name>sysevent_in_email_action</sys_class_name>
+        <sys_created_by>david.edgar</sys_created_by>
+        <sys_created_on>2016-10-18 10:17:54</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3f1b58a5db66e2002ab570d9bf96195d</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>F&amp;D  Inbound</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="F and D" source="x_spog_f_and_d">45c86b523751d2004ed29c9953990e0b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="F and D">45c86b523751d2004ed29c9953990e0b</sys_scope>
+        <sys_update_name>sysevent_in_email_action_3f1b58a5db66e2002ab570d9bf96195d</sys_update_name>
+        <sys_updated_by>david.edgar</sys_updated_by>
+        <sys_updated_on>2016-10-18 10:28:04</sys_updated_on>
+        <table>x_spog_f_and_d_f_and_d</table>
+        <template/>
+        <type>reply</type>
+    </sysevent_in_email_action>
+</record_update>
